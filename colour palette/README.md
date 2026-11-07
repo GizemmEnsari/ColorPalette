@@ -8,7 +8,7 @@ network calls — everything runs on-device.
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Details |
 |---|---|
@@ -26,7 +26,7 @@ network calls — everything runs on-device.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 colour palette/
@@ -57,7 +57,7 @@ colour palette/
 
 ---
 
-## 🚀 How to Build & Run
+## How to Build & Run
 
 ### Option A — XcodeGen (recommended, one command)
 
@@ -99,7 +99,7 @@ colour palette/
 
 ---
 
-## 🔧 How It Works
+## How It Works
 
 ### The "random hue" generator (`PaletteGenerator.randomColor()`)
 
@@ -148,7 +148,7 @@ otherwise white — so the text is always legible on its own background.
 
 ---
 
-## 🧪 Running Tests
+## Running Tests
 
 In Xcode:
 - **Product → Test** (⌘U) to run all unit tests.
@@ -159,7 +159,7 @@ In Xcode:
 
 ---
 
-## 📱 Testing on a Real iPhone
+## Testing on a Real iPhone
 
 1. In Xcode, go to **Product → Destination** and select your iPhone
    (or **More Devices** to register it).
@@ -177,7 +177,7 @@ In Xcode:
 
 ---
 
-## 🎨 Customisation Ideas
+## Customisation Ideas
 
 The codebase is structured so these are easy to add:
 
@@ -191,7 +191,7 @@ The codebase is structured so these are easy to add:
 
 ---
 
-## 📝 Requirements
+## Requirements
 
 - **Xcode 15+**
 - **iOS 16+** (for `UIActivityViewController`, `NavigationStack`, `.ultraThinMaterial`)
@@ -202,7 +202,7 @@ No external dependencies. No server. No network.
 
 ---
 
-## ⚠️ Before App Store Submission
+## Before App Store Submission
 
 - Add a real **App Icon** (1024×1024 PNG) to `Assets.xcassets/AppIcon.appiconset/`.
 - Add a `PrivacyInfo.xcprivacy` file if Apple requires one for your
